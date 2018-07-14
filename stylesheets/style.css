@@ -44,3 +44,8 @@
   color:skyblue;
   font-size: 2.2rem;
 }
+#subtitle #slide{
+  border-left: 550px solid black;
+  border-right:100px solid black;
+
+}

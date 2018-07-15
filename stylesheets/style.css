@@ -27,6 +27,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#body1 {
+		background-image: url('../images/bc3.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#body1 p{
+color:white;
+font-family: 'Merienda', cursive;
+font-size: 2rem;
+text-align: :justify;
+}
 #nav ul li a{
   top: -50px;
   font-size: 2rem;

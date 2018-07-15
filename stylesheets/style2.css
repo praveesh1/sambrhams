@@ -1,0 +1,58 @@
+#body{
+
+  background-image: url('../images/bc3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#head h1{
+  color:white;
+  font-family:'Great Vibes',cursive ;
+  height:5%;
+  font-size:60px;
+  text-align:center;
+
+}
+
+#subtitle h4{
+  color:#76b85d ;
+  font-family: 'Pacifico', cursive;
+  height:10%;
+  right:50%;
+  font-size:20px;
+  height:-50px;
+}
+#nav ul li a{
+  top: -50px;
+  font-size: 2rem;
+  font-family: 'Shrikhand',cursive;
+  color:#0d98ba;
+}
+
+
+#nav ul li a:hover{
+  background-color: black;
+  color:skyblue;
+  font-size: 2.2rem;
+}
+
+
+
+
+#pics #img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#pics #img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#pics #img_cont img {
+  width: 100%;
+  max-width: 150px;
+}

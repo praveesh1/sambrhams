@@ -129,3 +129,33 @@
   -ms-transform: scale(1);
   transform: scale(1);
 }
+
+
+
+
+
+
+
+
+
+#middle p{
+height:30%;
+
+position: absolute;
+top:610px;
+left:500px;
+color:white;
+
+font-size: 6.4rem;
+text-align:center;
+
+
+}
+#footer{
+  background-color: #262626;
+  color:#dcdcdc;
+}
+#footer h3{
+  text-align: left;
+  font-size: 1.5rem;
+}

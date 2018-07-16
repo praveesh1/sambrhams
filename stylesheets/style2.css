@@ -40,19 +40,17 @@
 
 
 
-#pics #img_cont {
-  display: table;
-  width: 90%;
-  margin: 20px auto;
+
+#images img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border:1px solid whitesmoke;
+    
 }
 
-#pics #img_cont a {
-  display: table-cell;
-  text-align: center;
-  width: 16%;
-}
-
-#pics #img_cont img {
-  width: 100%;
-  max-width: 150px;
+#images div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }

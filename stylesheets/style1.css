@@ -37,19 +37,7 @@
   font-size:20px;
   height:-50px;
 }
-#nav ul li a{
-  top: -50px;
-  font-size: 2rem;
-  font-family: 'Shrikhand',cursive;
-  color:#0d98ba;
-}
 
-
-#nav ul li a:hover{
-  background-color: black;
-  color:skyblue;
-  font-size: 2.2rem;
-}
 
 
 
@@ -132,6 +120,14 @@
 
 
 
+#whole
+
+{ position: relative;
+  background-color: black;
+  top: 0px;
+  left:0px;
+  width: 1330px;
+}
 
 
 
@@ -158,4 +154,24 @@ text-align:center;
 #footer h3{
   text-align: left;
   font-size: 1.5rem;
+}
+
+#nav ul {list-style: none;padding: 0px;margin: 0px;}
+#nav  ul li {display: block;position: relative;float: right;width: 15%;}
+#nav  li ul {display: none;}
+#nav  ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;font-size: 2rem;;
+  font-family:'Londrina Outline', cursive;
+           white-space: nowrap;color: white;}
+#nav  ul li a:hover {font-size:22px;text-decoration: underline;;}
+  #nav li:hover ul {display: block; position: absolute;}
+  #nav li:hover li {float: none;}
+  #nav li:hover a {}
+  #nav li:hover li a:hover {font-size:15px;}
+  #nav  li ul li a{border-top: 0px;
+                    font-size:15px;}
+                    #nav  li ul li a:hover{
+                                      }
+#nav ul li ul {
+  position: relative;
+  z-index: 1000;
 }

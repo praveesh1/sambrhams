@@ -4,7 +4,6 @@
   height:5%;
   font-size:60px;
   text-align:center;
-
 }
 
 #subtitle h4{
@@ -33,10 +32,15 @@
     background-size: cover;
 }
 #body1 p{
+
 color:white;
 font-family: 'Merienda', cursive;
 font-size: 2rem;
 text-align: justify;
+}
+#body1 p::first-letter{
+font-size:200%;
+
 }
 #nav ul li a{
   top: -50px;
@@ -62,4 +66,9 @@ text-align: justify;
 #footer h3{
   text-align: left;
   font-size: 1.5rem;
+}
+#whole
+
+{
+  width: 1323px;
 }

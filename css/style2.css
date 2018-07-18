@@ -1,0 +1,110 @@
+#body{
+
+  background-image: url('../images/bc3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#head h1{
+  color:white;
+  font-family:'Great Vibes',cursive ;
+  height:5%;
+  font-size:60px;
+  text-align:center;
+
+}
+
+#subtitle h4{
+  color:#76b85d ;
+  font-family: 'Pacifico', cursive;
+  height:10%;
+  right:50%;
+  font-size:20px;
+  height:-50px;
+}
+#nav ul li a{
+  top: -50px;
+  font-size: 2rem;
+  font-family: 'Shrikhand',cursive;
+  color:#0d98ba;
+}
+
+
+#nav ul li a:hover{
+  background-color: black;
+  color:skyblue;
+  font-size: 2.2rem;
+}
+
+
+
+
+
+#images img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+
+}
+
+#images div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+
+#images1 img{
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  position: relative;
+
+}
+
+#images1 div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+#nav ul {list-style: none;padding: 0px;margin: 0px;}
+#nav  ul li {display: block;position: relative;float: right;width: 15%;}
+#nav  li ul {display: none;}
+#nav  ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;font-size: 2rem;;
+  font-family:'Londrina Outline', cursive;
+           white-space: nowrap;color: white;}
+#nav  ul li a:hover {font-size:22px;text-decoration: underline;;}
+  #nav li:hover ul {display: block; position: absolute;}
+  #nav li:hover li {float: none;}
+  #nav li:hover a {}
+  #nav li:hover li a:hover {font-size:15px;}
+  #nav  li ul li a{border-top: 0px;
+                    font-size:15px;}
+                    #nav  li ul li a:hover{
+                                      }
+#nav ul li ul {
+  position: relative;
+  z-index: 1000;
+}
+
+
+
+
+#footer{
+  font-family:  'Oleo Script', cursive;
+  background-color: #262626;
+  color:#dcdcdc;
+}
+#footer h3{
+  text-align: left;
+  font-size: 1.5rem;
+}

@@ -7,7 +7,7 @@
 <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster|Josefin+Slab|Lobster+Two|Coustard" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Markazi+Text" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,55 +21,55 @@
 
       <link rel="stylesheet" type="text/css" href="engine1/style.css" />
       <script type="text/javascript" src="engine1/jquery.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
   </head>
 
-  <body> <div id="whole">
-    <div id="body">
-      <div id="head">
-          <h1> Sambrham Events </h1>
-      </div>
-      <div id="subtitle" class="row">
-        <div class="col-xs-offset-7">
-        <h4>-a road to your dream eve</h4>
-      </div>
-      </div>
-      <div id="nav" >
-<div id="drop" class="div1">
-        <ul>
+  <body ng-app="myApp">
+      <div id="whole">
+          <div id="body">
 
+            &nbsp;
+              <div id="head">
+                  <h1> Sambrham Events </h1>
+              </div>
 
-          <li><a href="#">Our Team</a></li>
+              <div id="subtitle" class="row">
+                  <div class="col-xs-offset-7">
+                      <h4>-a road to your dream eve</h4>
+                  </div>
+              </div>
 
-    <li><a href="#">Contact Us</a></li>
+              <div id="nav" >
+                  <div id="drop" class="div1" >
+                      <ul>
+                          <li><a href="#">Our Team</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">News</a></li>
+                          <li><a href="album.html">Album</a></li>
+                          <li><a href="#">Services</a>
+                              <ul id="drop-nav">
+                                  <li><a href="service_wed.html">Wedding Planners</a></li>
+                                  <li><a href="service_house.html">House Warming</a></li>
+                                  <li><a href="service_baby.html">Baby Naming</a></li>
+                                  <li><a href="service_corp.html">Corporate Functions</a></li>
+                                  <li><a href="service_newyear.html">New Year Parties</a></li>
+                                  <li><a href="service_birth.html">Birthday Parties</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="index.html">Home</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div id="subtitle" class="row">
+                      <div class="col-xs-3" >
+                      </div>
+                  </div>
+              </div>
 
-<li><a href="#">FAQ</a></li>
-<li><a href="#">News</a></li>
-
-<li><a href="album.html">Album</a></li>
-<li><a href="#">Services</a>
-  <ul id="drop-nav">
-    <li><a href="service_wed.html">Wedding Planners</a></li>
-    <li><a href="service_house.html">House Warming</a></li>
-    <li><a href="service_baby.html">Baby Naming</a></li>
-    <li><a href="service_corp.html">Corporate Functions</a></li>
-    <li><a href="service_newyear.html">New Year Parties</a></li>
-    <li><a href="service_birth.html">Birthday Parties</a></li>
-  </ul>
-</li>
-<li><a href="index.html">Home</a>
-
-</li>
-</ul>
-            </div>
-            <div id="subtitle" class="row">
-              <div class="col-xs-3" >
-
-</div>
-</div>
-</div>
-</body>
-<body style="background-color:black;margin:auto" >
+<div style="background-color:none;margin:auto;" >
 
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 	<div id="wowslider-container1" class="div2">
@@ -84,13 +84,13 @@
 		<a href="#" title="House Warming"><span><img src="data1/tooltips/house6.jpg" alt="House Warming"/>2</span></a>
 		<a href="#" title="Corporate"><span><img src="data1/tooltips/c4.jpg" alt="Corporate"/>3</span></a>
 		<a href="#" title="Baby Naming"><span><img src="data1/tooltips/baby6.jpg" alt="Baby Naming"/>4</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%;top:60px"><a href="#">javascript photo gallery</a> by WOWSlider.com v8.8</div>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%;top:60px"><a href="#"></a></div>
 	<div class="ws_shadow"></div>
 	</div>
 	<script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
 	<!-- End WOWSlider.com BODY section -->
-</div>
+</div></div>
 <div id="body1" class="row">
   <div class="col-xs-4">
 
@@ -167,10 +167,5 @@ If you have a brand, we have an experience that can add an additional dimension 
 
 
 </div>
-</div></body>
-
-
-
-
-
+</div></div></body>
 </html>

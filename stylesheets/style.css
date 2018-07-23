@@ -22,21 +22,24 @@
 }
 
 #body {
+
 		background-image: url('../images/bc3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1338px;
 }
 #body1 {
 		background-image: url('../images/bc3.jpg');
     background-repeat:no-repeat;
     background-size: cover;
+
 }
 #body1 p{
 
-color:white;
-font-family: 'Merienda', cursive;
-font-size: 2rem;
-text-align: justify;
+  color:white;
+  font-family: 'Merienda', cursive;
+  font-size: 2rem;
+  text-align: justify;
 }
 #body1 p::first-letter{
 font-size:200%;
@@ -64,10 +67,10 @@ font-size:200%;
 }
 
 #nav ul {list-style: none;padding: 0px;margin: 0px; }
-#nav  ul li {display: block;position: relative;float: right;width: 13%;}
+#nav  ul li {display: block;position: relative;float: right;width: 13%;align-items: center; }
 #nav  li ul {display: none;}
-#nav  ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;font-size: 2rem;;
-  font-family:'Londrina Outline', cursive;
+#nav  ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;font-size: 2rem;
+  font-family: 'Markazi Text', serif;font-size: 24px;
            white-space: nowrap;color: white;}
 #nav  ul li a:hover {font-size:22px;text-decoration: underline;}
   #nav li:hover ul {display: block; position: absolute;}
@@ -76,11 +79,19 @@ font-size:200%;
   #nav li:hover li a:hover {font-size:15px;}
   #nav  li ul li a{border-top: 0px;
 
-                    font-size:15px;}
+                    font-size:18px;}
   #nav  li ul li a:hover{
                                      }
 
 #nav #drop ul li ul{
 position: relative;
   z-index: 999;
+}
+
+
+
+#btn {
+font-size: 50px;
+align-content: center;
+
 }

@@ -13,8 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand|Chela+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merienda|Oleo+Script" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+
+<script src="js/avail_js.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body ng-app="myApp">
 
 <div id="whole">
     <div id="head">
@@ -41,7 +46,7 @@
     <li><a href="album.html">Album</a></li>
     <li><a href="#">Services</a>
     <ul id="drop-nav">
-    <li><a href="service_wed.html">Wedding Planners</a></li>
+    <li><a href="#">Wedding Planners</a></li>
     <li><a href="service_house.html">House Warming</a></li>
     <li><a href="service_baby.html">Baby Naming</a></li>
     <li><a href="service_corp.html">Corporate Functions</a></li>
@@ -144,6 +149,111 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </script>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+</style>
+
+
+
+<button class="accordion">Available Halls</button>
+<div class="panel">
+
+  <div class="row" id="center" ng-controller="myController">
+          <div>
+          <div class="ng-view ng-scope">
+          <div class="row " id="center">
+
+
+  <div class="col-md-offset-2 col-md-6 col-xs-12 ">
+
+
+    <table class="table">
+      <tr>
+        <td>
+            Name
+        </td>
+        <td>
+            price
+        </td>
+        <td>
+            Status
+        </td>
+      </tr>
+      <tr ng-repeat="d in datas">
+        <td>{{d.name}}</td>
+        <td>{{d.price}}</td>
+        <td>{{d.exp }}</td>
+
+      </tr>
+
+
+
+    </table>
+</div>
+</div>
+
+          </div>
+    </div>
+
+
+      </div>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</div>
+
+
 <div id="footer" class="row">
 <div class="col-xs-3">
 <h1>Sambrham Events</h1>
@@ -163,9 +273,6 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
   <p>Phone: 9482374821<br>Phone: 9482374821<br>Address: 4th Cross,Electronic City,Banglore<br>Mehendi<br>Party Hall<br></p>
 </div>
  <h3>&#x24B8;copyright Sambrham Events 2017-18</h3>
-
-
-
 </div>
 </div>
   </body>

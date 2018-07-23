@@ -1,0 +1,22 @@
+var myApp=angular.module("myApp",[]);
+myApp.controller("myController",function($scope){
+
+$scope.title="Helooo";
+  $scope.datas=[{
+      name:"Rajmahal party hall,Davangere",
+      price:20000,
+      exp:"Available"
+  },{
+    name:"Trishul kala Bhavan,Davangere",
+    price:50000,
+    exp:"Available"
+  },{
+    name:"Lagan Mandira,Shimoga",
+    price:220000,
+    exp:"Not  Available"
+  },{
+    name:"Star Crew Party Hall,Shimoga",
+    price:230000,
+    exp:"Available"
+  }];
+});
